@@ -60,12 +60,13 @@
     justify-content: space-between;
     z-index: 999;
   }
-
+  
   .bar {
     height: 4px;
     width: 100%;
     background-color: rgb(178, 156, 114);
     border-radius: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
   }
 
   .nav-list {
@@ -80,6 +81,7 @@
     z-index: 666;
     list-style: none;
     gap: 10px;
+    transition: opacity 0.3s ease;
   }
 
   .bar:nth-child(1).active {
@@ -316,4 +318,8 @@
   }
 
   /*! ========= FOOTER-END ===============*/
+}
+
+@media screen and (min-width: 768px) {
+
 }
