@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('fonts/icons.eot?6janjx');
+  src:  url('fonts/icons.eot?6janjx#iefix') format('embedded-opentype'),
+    url('fonts/icons.ttf?6janjx') format('truetype'),
+    url('fonts/icons.woff?6janjx') format('woff'),
+    url('fonts/icons.svg?6janjx#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"], [class*=" _icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-chart-simple-solid:before {
+  content: "\e900";
+}
+._icon-code-solid:before {
+  content: "\e901";
+}
+._icon-facebook-brands-solid:before {
+  content: "\e902";
+}
+._icon-figma-brands-solid:before {
+  content: "\e903";
+}
+._icon-instagram-brands-solid:before {
+  content: "\e904";
+}
+._icon-palette-solid:before {
+  content: "\e905";
+}
+._icon-youtube-brands-solid:before {
+  content: "\e906";
+}
+._icon-book-open:before {
+  content: "\e907";
+}
+._icon-coffee:before {
+  content: "\e908";
+}
+._icon-library:before {
+  content: "\e921";
+}
+._icon-file-text:before {
+  content: "\e926";
+}
+._icon-circle-right:before {
+  content: "\ea42";
+}
