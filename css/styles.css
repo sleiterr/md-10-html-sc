@@ -87,7 +87,7 @@ header {
 
 .logo-text {
   position: relative;
-  padding-left: 14px;
+  padding-left: 0 24px;
   /* left: 10px; */
 }
 
@@ -222,6 +222,8 @@ header {
   width: 800px;
   height: 500px;
 }
+
+/*! ================ HERO-END =================*/
 
 /*! ============ FEATURES-SECTION ============*/
 
@@ -451,6 +453,8 @@ header {
   width: 100%;
   height: 100%;
 }
+
+/* information-box */
 
 .information-box {
   display: flex;
